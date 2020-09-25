@@ -1,0 +1,5 @@
+2020-04-14:
+
+Corrected some typos in the notation of beta and x on page 4 and 5.
+Deleted RSS on page 9 since it is not used.
+

@@ -1,0 +1,11 @@
+2020-03-25:
+
+p(theta^(0) | y) on page 17 is corrected to p(theta^(0) | bold y).
+
+Several pi(theta...|Y) on page 20 are corrected to p(theta...| bold y).
+
+K(theta_a, theta) in Equation (1) on page 22 is corrected to K(theta_a, theta_b).
+
+A pi(theta...|bold y) on page 24 is corrected to p(theta...| bold y).
+
+

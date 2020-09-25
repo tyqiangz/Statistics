@@ -1,0 +1,5 @@
+2020-02-11	
+
+Page 34, S1 in the 3rd line of the long expression is replaced by nu1 sigma1^2
+
+Page 50, the range of gamma is from - infinity to 0.

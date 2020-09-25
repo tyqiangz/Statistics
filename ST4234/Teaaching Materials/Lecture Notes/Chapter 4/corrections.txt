@@ -1,0 +1,1 @@
+2020-02-18	I corrected the section numbers on every page from 3.X.X to 4.X.X.

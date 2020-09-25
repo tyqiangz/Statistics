@@ -1,0 +1,3 @@
+2020-03-04: page 16, the right-hand side of the last formula of -[l''(theta)]^{-1} is corrected.
+
+2020-03-04: page 24, the first and the third line of the long derivation are corrected. Before, the first line missed "d theta" and the third line had an additional integral sign.

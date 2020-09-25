@@ -1,0 +1,5 @@
+2020-04-01:
+
+For Question 1, all "pi"s are corrected to "p", e.g. pi(theta|y) is p(theta|y), etc. 
+
+The statement is "n animals are distributed into ..."

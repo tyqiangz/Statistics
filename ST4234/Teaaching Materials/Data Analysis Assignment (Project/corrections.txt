@@ -1,0 +1,15 @@
+2020-04-16:
+
+Question 1, page 3 right before the table, the subscripts of y and sigma runs from 1 to J, instead from 1 to n.
+
+Question 1(f), page 5, line 2-3, ...the simulated draws of ... in Part (d) instead of Part (c).
+
+Question 2, page 7, line 1, I added boldfaced y as the vector of boldfaced y_1, ..., y_J.
+
+
+2020-04-10:
+
+Question 1e, 10^4 is corrected to 5000, in line with 1d.  After the correction, it is "simulate 5000 draws from the joint posterior density of theta1, ..."
+
+Question 2a, there is a redundant boldfaced sigma in the posterior. After correction, it is "p(theta,mu,tau^2,sigma^2| y)".
+
