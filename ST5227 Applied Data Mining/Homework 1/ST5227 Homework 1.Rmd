@@ -1,0 +1,33 @@
+---
+title: "ST5227 Homework 1"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+data = read.table('data01C.dat')
+
+x = data[,1]
+y = data[,2]
+
+reg = lm(y~x)
+
+
+newx = seq(min(x), max(x), 0.1)
+pred <- predict(reg, newdata=data.frame(x=newx), interval="confidence", 
+                         level = 0.95) 
+
+plot(x, y)
+abline(reg, lwd=2)
+lines(newx, pred[,2], lty=3, col='red', lwd=2)
+lines(newx, pred[,3], lty=3, col='red', lwd=2)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
